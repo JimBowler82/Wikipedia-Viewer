@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C3E50, #FD746C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C3E50, #FD746C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  a{
+   color: inherit;
+   text-decoration: none;
+   cursor: pointer
+  }
+  
+  a:hover{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  header{
+    margin: 0 auto;
+  }
+  
+  header h3{
+    color: #fff;
+    font-family: 'Lilita One', cursive;
+    font-size: 4em;
+  }
+  
+  header form{
+    margin-top: 240px;
+  }
+  
+  .search{
+    text-align: center;
+    padding: 0;
+  }
+  
+  .button{
+    padding: 0;
+  }
+  
+  #term{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+  }
+  
+  .random{
+    width: 25%;
+    padding-top: 45px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  .random a{
+    color: #fff;
+    font-size: 1.2em;
+  }
+  
+  .random a:hover{
+    text-decoration: underline;
+  }
+  
+  
+  .main{
+    display: none;
+    width: 80%;
+    margin: 35px auto 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(225,225,225,0.2);
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 2px 13px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 13px 3px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 13px 3px rgba(0,0,0,0.5);
+  }
+  
+  .result{
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    margin: 5px auto;
+    padding: 7px 7px 0px 7px;
+    border-radius: 15px;
+    background: rgba(225,225,225,0.2);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .result:hover{
+    color: #000;
+    background: rgb(225,225,225);
+    text-decoration: none;
+    border: none;
+    border-left: 4px solid #2fc4ed;
+    cursor: pointer;
+  }
+  
+  .title{
+    font-weight: bold;
+    font-size: 130%;
+  }
+  
+  .snippet{
+    font-size: 110%;
+  }
+  
+  .continue{
+    display: none;
+    width: 46%;
+    margin: 0 auto;;
+  }
+  
+  .continue button{
+    cursor: pointer;
+  }
+  
+  footer{
+    color: #fff;
+    margin-top: 50px;
+  }
+  
+  footer a:hover{
+    text-decoration: underline;
+  }
